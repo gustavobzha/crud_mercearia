@@ -1,12 +1,11 @@
 package com.gutz.mercearia.entities;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table
+@Table(name="PRODUCT_TABLE")
 public class Product {
 
     // If you want to application generate the id value use @GeneratedValue too
